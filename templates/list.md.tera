@@ -24,7 +24,7 @@ yq ea '[.]'  assets/polkadotjs/polkadotjs.yaml assets/kusama/kusama.yaml assets/
 <a href="{{img}}">
 <img src="{{img}}" alt="{{asset.name}}" style="margin: 10px;" height=32px  />
 </a>
-<figcaption style="font-size: 8px; text-overflow: ellipsis"><code>https://raw.githubusercontent.com/paritytech/substrate-assets/master/{{img}}</code></figcaption>
+<figcaption style="font-size: 8px; text-overflow: ellipsis"><code>https://raw.githubusercontent.com/chevdor/substrate-assets/master/{{img}}</code></figcaption>
 </figure>
 {% endfor %}
 
@@ -41,7 +41,7 @@ yq ea '[.]'  assets/polkadotjs/polkadotjs.yaml assets/kusama/kusama.yaml assets/
 <a href="{{img}}">
 <img src="{{img}}" alt="{{asset.name}}" style="margin: 10px;" height=200px  />
 </a>
-<figcaption style="font-size: 8px; text-overflow: ellipsis"><code>https://raw.githubusercontent.com/paritytech/substrate-assets/master/{{img}}</code></figcaption>
+<figcaption style="font-size: 8px; text-overflow: ellipsis"><code>https://raw.githubusercontent.com/chevdor/substrate-assets/master/{{img}}</code></figcaption>
 </figure>
 {% endfor %}
 

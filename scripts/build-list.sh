@@ -5,6 +5,6 @@
 # done
 
 list="$(find assets -name "*.yaml" | tr "\n" " ")"
-yq ea '[.]' "$list" | yq ea '[.]' | yq ea '{"assets": .[0]}' > /tmp/test.yaml
+yq ea '[.]' $list | yq ea '[.]' | yq ea '{"assets": .[0]}' > out/assets.yaml
 
-tera -t templates/list.md.tera /tmp/test.yaml > list.md
+tera -t templates/list.md.tera out/assets.yaml > list.md
